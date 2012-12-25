@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>{% block title %}{% endblock title %}</title>
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body class="{% block body_classes %}{% endblock body_classes %}">
+  <div class="container-fluid">
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <a class="brand" href="{% url home %}">Djinni</a>
+        <ul class="nav">
+          <li><a href="#">File</a></li>
+        </ul>        
+      </div>
+    </div>
+    <div class="main row-fluid">
+      <div class="tray">
+        <h1>Tray</h1>
+      </div>
+      <div class="editor">
+        <h1>Editor</h1>
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="{{ STATIC_URL }}js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="{{ STATIC_URL }}js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
