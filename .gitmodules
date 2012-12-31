@@ -1,0 +1,3 @@
+[submodule "ide/static/bootstrap"]
+	path = ide/static/bootstrap
+	url = git://github.com/twitter/bootstrap.git

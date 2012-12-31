@@ -852,5 +852,6 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
 body,html{height:100%;}
-div.container-fluid{height:100%;}div.container-fluid div.main{height:100%;}div.container-fluid div.main .tray{padding-top:30px;width:10%;height:100%;float:left;}
+.brand{color:#fff;font-family:'Berkshire Swash',cursive;}
+div.container-fluid{height:100%;background:url('/static/img/hexabump/hexabump.png') repeat;}div.container-fluid div.main{height:100%;}div.container-fluid div.main .tray{padding-top:30px;width:10%;height:100%;float:left;}
 div.container-fluid div.main .editor{padding-top:30px;width:90%;height:100%;float:left;}
