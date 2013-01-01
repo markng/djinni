@@ -115,7 +115,11 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.admin',
+    'haystack',
     'ide',
+    'gunicorn',
+    'django_extensions',
 )
 
 # A sample logging configuration. The only tangible logging
